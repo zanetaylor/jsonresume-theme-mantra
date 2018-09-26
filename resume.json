@@ -1,0 +1,295 @@
+{
+  "basics": {
+    "name": "Zane Taylor",
+    "label": "Creative Web Engineer",
+    "picture": "",
+    "email": "zane@zanetaylor.me",
+    "phone": "971-803-1060",
+    "website": "https://zanetaylor.me",
+    "summary": "<p>I’m a full-stack web engineer, project manager, and entrepreneur with over a decade of experience in the creative agency industry. As a team member, freelancer, co-founder, and manager, I’ve contributed to a wide array of projects for a diverse set of clients.</p><p>I’m an advocate of open source tools and the community that supports them, and have a deep interest in impactful, mission-driven work that leverages digital technology to elevate causes and organizations whose work is about more than profit.</p>",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Portland, Oregon",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      
+    ]
+  },
+  "work": [
+    {
+      "company": "Total Design Shop",
+      "position": "Owner / CEO",
+      "website": "",
+      "startDate": "January 2016",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Totally",
+      "position": "Founding Partner & CTO",
+      "website": "",
+      "startDate": "August 2014",
+      "summary": "Business Development, Marketing, Strategy, Creative Direction, Technical Direction, Project Management, Administration, and Web Engineering for brands, organizations, and non-profits of all stripes, emphasizing content- and user- centric approaches to design and development, and crafting web presences and tools to further clients' business, marketing, and culture goals.",
+      "highlights": []
+    },
+    {
+      "company": "Freelance",
+      "position": "Creative Web Engineer",
+      "website": "",
+      "startDate": "January 2009",
+      "endDate": "December 2015",
+      "summary": "Created comprehensive web experiences for diverse clients, with an emphasis on UI / UX, mobile-first and responsive design and development, along with content + brand strategy, and email + social engagement.",
+      "highlights": []
+    },
+    {
+      "company": "Total Design Shop",
+      "position": "Web Designer & Developer",
+      "website": "",
+      "startDate": "September 2011",
+      "endDate": "December 2015",
+      "summary": "Designed and developed custom, dynamic web presences and applications built on WordPress and custom CMS platforms for a wide variety of business and non-profit clients.",
+      "highlights": []
+    },
+    {
+      "company": "Quill Design",
+      "position": "Full Stack Web Developer",
+      "website": "",
+      "startDate": "February 2009",
+      "endDate": "January 2012",
+      "summary": "Crafted custom commercial & enterprise ecommerce systems marrying modern front-ends with a MVC ColdFusion platform.",
+      "highlights": []
+    },
+    {
+      "company": "PLS Creative Solutions",
+      "position": "Senior Web Developer",
+      "website": "",
+      "startDate": "August 2007",
+      "endDate": "December 2008",
+      "summary": "Led development of custom, dynamic websites and applications for business and non-profit clients.",
+      "highlights": []
+    },
+    {
+      "company": "Robison Creative Studios",
+      "position": "Full Stack Developer",
+      "website": "",
+      "startDate": "November 2005",
+      "endDate": "August 2007",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Missouri State University",
+      "area": "Fine Arts (Photography), Journalism",
+      "studyType": "",
+      "startDate": "2005",
+      "endDate": "2009",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Drury University",
+      "area": "Fine Arts, Global Studies",
+      "studyType": "",
+      "startDate": "2004",
+      "endDate": "2005",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Graphic Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-end Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Application Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Responsive Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Version Control",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Meteor",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kohana",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CodeIgniter",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ExpressionEngine",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SEO",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Entrepreneurship",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Creative Suite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Creative Direction",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "E-commerce",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sketch",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Email Marketing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Responsive Web Design",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native proficiency"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary proficiency"
+    }
+  ],
+  "interests": [],
+  "references": []
+}

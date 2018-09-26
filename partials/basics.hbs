@@ -1,0 +1,66 @@
+{{#resume.basics}}
+	<header>
+    <h1>{{name}}</h1>
+    <h2 id="title">{{label}}</h2> 
+  </header>
+  <hr class="contact-bg">
+	<section id="basics">
+		<div class="contact">
+  		{{#if website}}
+  		<div class="website">
+  			<strong>Website</strong>
+  			<a href="{{website}}">{{website}}</a>
+  		</div>
+  		{{/if}}
+  		{{#if email}}
+  		<div class="email">
+  			<strong>Email</strong>
+  			{{email}}
+  		</div>
+  		{{/if}}
+  		{{#if phone}}
+  		<div class="phone">
+  			<strong>Phone</strong>
+  			{{phone}}
+  		</div>
+  		{{/if}}
+      {{#location}}
+      <div class="address">
+        <strong>Location</strong>
+        {{#if address}}{{address}}<br>{{/if}}
+        {{#if city}}{{city}}{{/if}}{{#if postalCode}} {{postalCode}}{{/if}}<br>
+        {{#if countryCode}}{{countryCode}}{{/if}}
+      </div>
+      {{/location}}
+		</div>
+		{{#if summary}}
+		<div class="summary">
+			<p>{{{summary}}}</p>
+		</div>
+		{{/if}}
+		{{#if profiles.length}}
+		<h3>Profiles</h3>
+		<section id="profiles">
+			{{#each profiles}}
+			<div class="item">
+				{{#if network}}
+				<strong class="network">
+					{{network}}
+				</strong>
+				{{/if}}
+				{{#if username}}
+				<div class="username">
+					{{username}}
+				</div>
+				{{/if}}
+				{{#if url}}
+				<div class="url">
+					<a href="{{url}}">Link</a>
+				</div>
+				{{/if}}
+			</div>
+			{{/each}}
+		</section>
+		{{/if}}
+	</section>
+{{/resume.basics}}
