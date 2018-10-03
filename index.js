@@ -1,6 +1,12 @@
-var fs = require("fs");
+var fs = require('fs');
 var path = require('path');
-var Handlebars = require("handlebars");
+var Handlebars = require('handlebars');
+var helpers = require('handlebars-helpers')({
+  handlebars: Handlebars
+});
+// var partials = require('./lib/partials');
+
+// Handlebars.registerPartial(partials);
 
 function render(resume) {
 	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
@@ -19,8 +25,11 @@ function render(resume) {
 
 	  Handlebars.registerPartial(name, template);
 	});
+
+  Handlebars.registerPartial('css', css);
+
 	return Handlebars.compile(tpl)({
-		css: css,
+		// css: css,
 		resume: resume
 	});
 }

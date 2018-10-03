@@ -12,12 +12,12 @@
 		<div class="date">
 			{{#if startDate}}
 			<span class="startDate">
-				{{startDate}}
+				{{moment startDate format="MMMM YYYY"}}
 			</span>
 			{{/if}}
 			{{#if endDate}}
 			<span class="endDate">
-				- {{endDate}}
+				- {{moment endDate format="MMMM YYYY"}}
 			</span>
 			{{else}}
 			<span class="endDate">
@@ -37,7 +37,7 @@
 		{{/if}}
 		{{#if summary}}
 		<div class="summary">
-			<p>{{summary}}</p>
+			{{{summary}}}
 		</div>
 		{{/if}}
 		{{#if highlights.length}}
