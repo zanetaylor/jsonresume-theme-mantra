@@ -4,9 +4,6 @@ var Handlebars = require('handlebars');
 var helpers = require('handlebars-helpers')({
   handlebars: Handlebars
 });
-// var partials = require('./lib/partials');
-
-// Handlebars.registerPartial(partials);
 
 function render(resume) {
 	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
