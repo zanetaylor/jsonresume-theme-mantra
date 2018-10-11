@@ -40,12 +40,14 @@
 		{{/if}}
 		{{#if profiles.length}}
 		<h3>Profiles</h3>
-		<section id="profiles">
+		<div class="profiles">
 			{{#each profiles}}
 			<div class="item">
 				{{#if network}}
 				<strong class="network">
+          {{#if url}}<a href="{{url}}">{{/if}}
 					{{network}}
+          {{#if url}}</a>{{/if}}
 				</strong>
 				{{/if}}
 				{{#if username}}
@@ -53,14 +55,9 @@
 					{{username}}
 				</div>
 				{{/if}}
-				{{#if url}}
-				<div class="url">
-					<a href="{{url}}">Link</a>
-				</div>
-				{{/if}}
 			</div>
 			{{/each}}
-		</section>
+		</div>
 		{{/if}}
 	</section>
 {{/resume.basics}}

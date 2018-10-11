@@ -83,11 +83,14 @@ blockquote {
 .date, .position {
   font-weight: bold;
 }
-#profiles,
+.profiles,
 #skills {
 	overflow: hidden;
 }
-#profiles .item,
+.profiles .item {
+  float: left;
+  margin: 0 2rem 0 0;
+}
 #skills .item {
 	float: left;
 	width: 50%;
