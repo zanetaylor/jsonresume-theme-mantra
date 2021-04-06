@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-mantra",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "A theme for JSON Resume",
   "author": "Zane Taylor",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^4.0.12",
-    "handlebars-helpers": "^0.10.0"
+    "handlebars": "^4.7",
+    "handlebars-helpers": "^0.10"
   }
 }
