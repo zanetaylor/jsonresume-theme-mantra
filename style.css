@@ -1,5 +1,5 @@
 body {
-	background: #efefef;
+	background: #fff;
 	font: 16px 'Fira Mono', Inconsolata, Courier New, serif;
   color: #333;
 	line-height: 1.4;
@@ -7,19 +7,20 @@ body {
 	margin-bottom: 100px;
 }
 a {
-  color: #7f23ff;
+  color: #7C4EFF;
+  transition: all .25s;
+}
+a:hover {
+  color: #522eb4;
 }
 h1,h2,h3,h4 {
-  color: #7f23ff;
+  color: #7C4EFF;
   font-family: 'Work Sans', Arial, Helvetica, sans-serif;
 }
 h1 {
   margin: 0;
   line-height: 1.25;
   font-size: 4.25rem;
-  background: -webkit-linear-gradient(#7f23ff, #9367FC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 h2 {
   margin-bottom: 3rem;
@@ -31,7 +32,7 @@ h3 {
 #title {
   margin: 0 0 1.6rem 0;
   font-weight: normal;
-  color: #777;
+  color: #888;
 }
 em {
 	color: #999;
@@ -42,20 +43,23 @@ p {
 ul {
 	margin-bottom: 0;
 }
+ul li {
+  margin: 0 0 .25rem 0;
+}
 header, section {
   margin: 0 auto;
-  max-width: 680px;
+  padding: 0 2rem;
+  max-width: 54rem;
 }
 section {
-  margin-bottom: 2em;
-  padding: 0 20px;
+  margin-bottom: 3rem;
 }
 blockquote {
 	margin: 0;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 .item {
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 #resume {
 	/*padding: 0 20px;*/
@@ -64,7 +68,7 @@ blockquote {
 	/*margin-bottom: -10px;*/
 }
 #basics h3 {
-	margin-top: 1.5em;
+	margin-top: 1.5rem;
 }
 #basics .contact {
   margin: 0 0 2.6rem 0;
@@ -93,7 +97,12 @@ blockquote {
 }
 #skills .item {
 	float: left;
-	width: 50%;
+	width: 33%;
+}
+#work .item .details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 hr {
   margin: 0 0 -4.75rem 0;

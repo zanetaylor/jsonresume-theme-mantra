@@ -4,37 +4,39 @@
 	<h2>Experience</h2>
 	{{#each resume.work}}
 	<div class="item">
-		{{#if company}}
+		{{#if name}}
 		<h3 class="name">
-			{{company}}
+			{{name}}
 		</h3>
 		{{/if}}
-		<div class="date">
-			{{#if startDate}}
-			<span class="startDate">
-				{{moment startDate format="MMMM YYYY"}}
-			</span>
+		<ul class="details">
+			<li class="date">
+				{{#if startDate}}
+				<span class="startDate">
+					{{moment startDate format="MMMM YYYY"}}
+				</span>
+				{{/if}}
+				{{#if endDate}}
+				<span class="endDate">
+					- {{moment endDate format="MMMM YYYY"}}
+				</span>
+				{{else}}
+				<span class="endDate">
+					- Present
+				</span>
+				{{/if}}
+			</li>
+			{{#if position}}
+			<li class="position">
+				{{position}}
+			</li>
 			{{/if}}
-			{{#if endDate}}
-			<span class="endDate">
-				- {{moment endDate format="MMMM YYYY"}}
-			</span>
-			{{else}}
-			<span class="endDate">
-				- Present
-			</span>
+			{{#if website}}
+			<li class="website">
+				<a href="{{website}}">{{website}}</a>
+			</li>
 			{{/if}}
-		</div>
-		{{#if position}}
-		<div class="position">
-			{{position}}
-		</div>
-		{{/if}}
-		{{#if website}}
-		<div class="website">
-			<a href="{{website}}">{{website}}</a>
-		</div>
-		{{/if}}
+		</ul>
 		{{#if summary}}
 		<div class="summary">
 			{{{summary}}}

@@ -1,7 +1,7 @@
 {{#resume.basics}}
 	<header>
     <h1>{{name}}</h1>
-    <h2 id="title">{{label}}</h2> 
+    <h2 id="title">{{label}}</h2>
   </header>
   <hr class="contact-bg">
 	<section id="basics">
@@ -28,7 +28,7 @@
       <div class="address">
         <strong>Location</strong>
         {{#if address}}{{address}}<br>{{/if}}
-        {{#if city}}{{city}}{{/if}}{{#if postalCode}} {{postalCode}}{{/if}}<br>
+        {{#if city}}{{city}}{{/if}}{{#if region}}, {{region}}{{/if}}{{#if postalCode}} {{postalCode}}{{/if}}<br>
         {{#if countryCode}}{{countryCode}}{{/if}}
       </div>
       {{/location}}
