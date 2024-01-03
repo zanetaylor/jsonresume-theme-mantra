@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-mantra",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A theme for JSON Resume",
   "author": "Zane Taylor",
   "repository": {
@@ -8,8 +8,23 @@
     "url": "https://github.com/zanetaylor/jsonresume-theme-mantra"
   },
   "license": "MIT",
+  "files": [
+    "index.js",
+    "partials/*.hbs",
+    "resume.hbs",
+    "style.css"
+  ],
+  "scripts" : {
+    "start": "resume serve --theme .",
+    "export": "npm-run-all export:*",
+    "export:html": "resume export docs/index.html --format html --theme .",
+    "export:pdf": "resume export docs/index.pdf --format pdf --theme ."
+  },
   "dependencies": {
     "handlebars": "^4.7",
     "handlebars-helpers": "^0.10"
+},
+  "devDependencies": {
+    "resume-cli": "^3.0.8"
   }
 }
